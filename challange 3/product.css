@@ -1,0 +1,87 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 246px 246px 246px 246px;
+    grid-template-rows: 355px 355px;
+    gap: 25px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.grid-container p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.grid-item {
+    justify-content: center;
+    padding-top: 25px;
+    text-decoration: none;
+    object-fit: contain;
+}
+
+.grid-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(29, 55, 206, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figcaption {
+    color: grey;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 246px;
+        grid-template-rows: 355px 355px 335px 335px 335px 335px 335px 335px;
+        gap: 25px 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 246px 246px;
+        grid-template-rows: 355px 355px 335px 335px;
+        gap: 25px 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 246px 246px 246px;
+        grid-template-rows: 355px 355px 335px;
+        gap: 25px 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.navbar {
+    background-color: #0046be;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    left:0;
+    right:0;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(93, 107, 137);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 75%;
+}
+
+.red {
+    height: 50px;
+    background: rgb(255, 0, 0);
+}
+
+.white {
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.stars {
+    position: absolute;
+}
+
+table {
+    border-collapse: collapse;
+}
